@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "enter the name of the file"
+read y
+chmod u+x ${y}
+git add .
+git commit -m"0x00. C - Hello, World"
+git push
