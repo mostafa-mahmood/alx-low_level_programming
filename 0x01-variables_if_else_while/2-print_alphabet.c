@@ -10,6 +10,7 @@ int main(void)
 {
 	char arr[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
+
 	for (i = 0 ; i < 26 ; i++)
 	{
 		putchar(arr[i]);
